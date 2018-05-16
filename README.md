@@ -1,3 +1,4 @@
+---HTML---
 Warning: This document appears to be written in Turkish. Consider adding lang="tr" (or variant) to the html start tag.
 
 From line 1, column 16; to line 2, column 6
@@ -161,5 +162,30 @@ From line 100, column 17; to line 100, column 74
 Error: An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
 
 From line 100, column 17; to line 100, column 74
+---CSS---
+Warning: This document appears to be written in English. Consider adding lang="en" (or variant) to the html start tag.
 
+From line 1, column 1; to line 1, column 3
+
+* {↩	padd
+
+For further guidance, consult Declaring the overall language of a page and Choosing language tags.
+
+If the HTML checker has misidentified the language of this document, please file an issue report or send e-mail to report the problem.
+
+Error: Non-space characters found without seeing a doctype first. Expected <!DOCTYPE html>.
+
+From line 1, column 1; to line 1, column 3
+
+* {↩	padd
+
+Error: Element head is missing a required instance of child element title.
+
+From line 1, column 1; to line 1, column 3
+
+* {↩	padd
+
+Content model for element head:
+If the document is an iframe srcdoc document or if title information is available from a higher-level protocol: Zero or more elements of metadata content, of which no more than one is a title element and no more than one is a base element.
+Otherwise: One or more elements of metadata content, of which exactly one is a title element and no more than one is a base element.
  href="#"><img src="sosyal-medya\instagram.png" class="sosyal-icon"></a></
