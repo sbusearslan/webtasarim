@@ -1,0 +1,241 @@
+* {
+	padding:0;
+	margin:0;
+}
+body {
+	background-color:#a2abb5;
+}
+#ayi {
+	background-image:url(logos/ayılogo.png);
+	height:70px;
+	width:210px;
+}
+
+#fil {
+	background-image:url(logos/fillogo.png);
+	height:70px;
+	width:210px;
+	background-repeat:no-repeat;
+}
+#ot {
+	background-image:url(logos/ot1.png);
+	height:70px;
+	width:210px;
+	background-repeat:no-repeat;
+}
+#masa {
+	background-image:url(logos/masalogo.png);
+	height:70px;
+	width:210px;
+	background-repeat:no-repeat;
+}
+header {
+	background-color:#333;
+	background-image:url(logos/logo.png);
+	background-repeat:no-repeat;
+	background-position: left 15px top 30px;
+	border-bottom:10px solid #a4abb5; 
+	display:flex;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	width:80%;
+	margin-left:20%;
+	
+}
+
+header ul li {
+    float: left;
+}
+
+header ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    background-color: #c6c6c6;
+}
+#sepet {
+	position:relative;
+	margin-left:350px;
+	color:white;
+	margin-top:10px;
+	font-family:Tahoma;
+}
+#sepet-resim {
+	width:30px;
+	height:30px;
+}
+@font-face {
+	font-family:"WildOnes";
+	src:url("fonts/wild.ttf")
+	
+}
+#edebiyat {
+	width:100%;
+	height:900px;
+	opacity:.7;
+}
+#icerik {
+	position:relative;
+	width:100%;
+	height:600px;
+	background-image:url(edebiyat.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 60%;
+	}
+#icerik h1 {
+	position:relative;
+	padding-top:35%;
+	font-family:Arial;
+	font-size:35px;
+	margin-left:10%;
+}
+#slayt {
+	position:relative;
+	margin-left:23%;
+	
+}
+.scroll-up {
+	position:relative;
+	height: 500px;	
+	overflow: hidden;
+	color:black;
+	bottom:800px;
+	left:220px;
+}
+#yesil {
+	width:40%;
+	background-color:#7b9693;
+	height:60%;
+	opacity:0.8;
+	position:absolute;
+	z-index:100;
+	font-family:Arial;
+}
+#yesil marquee {
+	opacity:1;
+	height:100%;
+}
+#urunler {
+	margin-top:180px;
+	width:80%;
+	margin-left:10%;
+	height:350px;
+	display:flex;
+}
+#urunler ul {
+	list-style-type:none;
+}
+#urunler ul li {
+	float:left;
+}
+.urun {
+	width:250px;
+	height:450px;
+	padding:15px;
+	background-color:#7b9693;
+	text-align:center;
+	margin:20px;
+	opacity:.8;
+}
+.urun:hover {
+	opacity:1;
+}
+.urun a {
+	text-decoration:none;
+	color:black;
+	font-family:Tahoma;
+}
+.urun p {
+	margin-top:15px;
+}
+.urun-resim {
+	width:95%;
+	height:90%;
+}
+#urunler h2 {
+	font-family:Arial;
+	font-size:35px;
+	padding:5% 0%;
+	text-align:center;
+}
+footer {
+	width:100%;
+	height:10%;
+	position:absolute;
+	background-color:#333;
+	margin-top:900px;
+}
+footer {
+	display:flex;
+}
+#social-media ul {
+	list-style-type:none;
+	margin-top:10px;
+}
+#social-media ul li {
+	float:left;
+}
+.sosyal-icon {
+	padding:7px;
+	height:30px;
+	width:30px;
+}
+footer p {
+	font-family:Tahoma;
+	color:white;
+	margin-top:20px;
+	padding-left:10px;
+}
+
+#yesil {
+ overflow: hidden;
+
+
+}
+#yesil p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateY(100%);
+ -webkit-transform:translateY(100%);	
+ transform:translateY(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll-up 5s linear infinite;
+ -webkit-animation: scroll-up 5s linear infinite;
+ animation: scroll-up 5s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-up {
+ 0%   { -moz-transform: translateY(100%); }
+ 100% { -moz-transform: translateY(-100%); }
+}
+@-webkit-keyframes scroll-up {
+ 0%   { -webkit-transform: translateY(100%); }
+ 100% { -webkit-transform: translateY(-100%); }
+}
+@keyframes scroll-up {
+ 0%   { 
+ -moz-transform: translateY(100%); /* Browser bug fix */
+ -webkit-transform: translateY(100%); /* Browser bug fix */
+ transform: translateY(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateY(-100%); /* Browser bug fix */
+ -webkit-transform: translateY(-100%); /* Browser bug fix */
+ transform: translateY(-100%); 
+ }
+}
